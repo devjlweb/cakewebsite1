@@ -1,6 +1,6 @@
 
 /* Color reference
-color : #A3CFCD  ,  #82A0AA  ,  #677381  ,  #4B4A54  ,  #2A272A  ,  #000000
+color :#cfffe8  ,  #fdbaba  ,  #604e00  ,  #fcffe0  , #d5f1ff
 */
 
 body {
@@ -27,31 +27,26 @@ h3 {
   font-size: 1.2rem;
   line-height: 1.6;
 }
-/* Header and Nav*/
 
 
-header {
-  background-color: #424549;
-  
-  
+/*              Header and Nav               */
+.header-nav {
+  background-color: #E5ADB6; 
 }
 
 .navbar-brand {
   font-family: 'Montserrat Alternates', sans-serif;
   font-size: 2rem;
   font-weight: bold;
-  color: #FFE3F1;
+  color: #C3FCF1;
 }
-.navbar-nav {
-  color: #FFE3F1;
-}
+
 .nav-tabs {
   padding: 5px;
 }
 
 .nav-item {
   padding: 18px;
-
 }
 
 .nav-link {
@@ -61,11 +56,18 @@ header {
 
 /* HeroTitle */
 
-.hero {
-  background-color: transparent;
-  display: inline-block;
+#title {
+  background-image: url("/images/bgHero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 100vw;
+  text-align: left;
+  color: #005B47;
+  padding-top: 100px;
 }
-
+#title p {
+  color: #C3FCF1;
+}
 
 /* Headings */
 
@@ -86,9 +88,6 @@ header {
   padding: 7% 15%;
 }
 
-
-
-
 /* Buttons */
 .button-title {
   color :#FFE3F1;
@@ -98,12 +97,6 @@ button {
   color :#FFE3F1;
 }
 
-/* Title Section */
-
-#title {
-  text-align: left;
-  color: #FFE3F1;
-}
 
 /* Off Canvas aside */
 
