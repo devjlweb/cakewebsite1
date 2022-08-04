@@ -70,7 +70,7 @@ h3 {
   min-width: 90vw;
   text-align: left;
   color: #005B47;
-  padding-top: 100px;
+  padding-top: 180px;
 }
 #title p {
   color: #C3FCF1;
@@ -128,7 +128,7 @@ button {
 }
 
 .feature-box {
-  padding: 4.5%;
+  padding: 4%;
 }
 
 .icon {
