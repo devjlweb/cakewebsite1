@@ -27,6 +27,13 @@ h3 {
   font-size: 1.2rem;
   line-height: 1.6;
 }
+.white-section {
+  background-color: #4C202A;
+  opacity: 0.8;
+}
+.white-section:hover {
+  opacity: 1.0;
+}
 
 
 /*              Header and Nav               */
@@ -108,14 +115,16 @@ button {
 
 #features {
   position: relative;
+  text-align: center;
 }
 #features p {
-  color: #677381;
+  color: #E5ADB6;
 }
 
 .feature-title {
   font-size: 1.5rem;
   font-family: "Stylish", sans-serif;
+  color: #78AD80;
 }
 
 .feature-box {
@@ -123,20 +132,28 @@ button {
 }
 
 .icon {
-  color: #8f682b;
+  color: #FFF6F8;
   margin-bottom: 1rem;
 }
 
 .icon:hover {
-  color: darkorange;
+  color: #78AD80;
 }
 
 /* Testimonial Section */
 
-
+#testimonials {
+  background-color: rgb(230,174,183);
+  background: linear-gradient(126deg, rgba(230,174,183,1) 0%, rgba(182,221,228,1) 55%);
+  
+}
 .testimonial-text {
   font-size: 1.3rem;
   line-height: 1.5;
+  color: #005B47;
+}
+.testimonial-text, div {
+  color: #005B47;
 }
 
 .testimonial-image {
@@ -157,6 +174,14 @@ button {
   /* Pricing Section */
   .colors {
     display: none;
+  }
+
+  .footer-all {
+    background-color: #4C202A;
+    opacity: 0.8;
+  }
+  .footer-all:hover {
+    opacity: 1;
   }
 
 /*                       Blog Section                     */
