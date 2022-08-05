@@ -45,49 +45,6 @@ h3 {
 }
 
 
-/* Testimonial Section */
-
-#testimonials {
-  background-color: rgb(230,174,183);
-  background: linear-gradient(126deg, rgba(230,174,183,1) 0%, rgba(182,221,228,1) 55%);
-  
-}
-.testimonial-text {
-  font-size: 1.3rem;
-  line-height: 1.5;
-  color: #005B47;
-}
-.testimonial-text, div {
-  color: #005B47;
-}
-
-.testimonial-image {
-  width: 10%;
-  border-radius: 100%;
-  margin: 20px;
-}
-  #press {
-    background-color: #ef8172;
-    padding-bottom: 3%;
-  }
-
-  .press-logo {
-    width: 15%;
-    margin: 20px 20px 50px;
-  }
-
-  /* Pricing Section */
-  .colors {
-    display: none;
-  }
-
-  .footer-all {
-    background-color: #4C202A;
-    opacity: 0.8;
-  }
-  .footer-all:hover {
-    opacity: 1;
-  }
 
 /*                       Blog Section                     */
 

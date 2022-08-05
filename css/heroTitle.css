@@ -9,7 +9,7 @@
   min-height: 50vw;
   text-align: left;
   color: #005B47;
-  padding-top: 180px;
+  padding-top: 150px;
 }
 
 #heroTitle p{
@@ -37,6 +37,7 @@
   text-align: center;
   background-color: #4C202A;
   opacity: 0.8;
+  margin-top: 30px;
 }
 
 #features:hover {
