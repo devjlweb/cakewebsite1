@@ -1,0 +1,32 @@
+.header-nav {
+  background-color: #E5ADB6; 
+}
+
+.navbar-brand {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #C3FCF1;
+}
+
+.navbar-brand:hover {
+  color: #005B47;
+}
+
+.nav-tabs {
+  padding: 5px;
+}
+
+.nav-item {
+  padding: 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+/* Button Toggler */
+button {
+  margin: 3% 0 3% 0;
+  color :#FFE3F1;
+}

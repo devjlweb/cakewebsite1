@@ -1,0 +1,61 @@
+#heroTitle {
+  background-image: url("/images/bgHero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 90vw;
+  min-height: 50vw;
+  text-align: left;
+  color: #005B47;
+  padding-top: 180px;
+}
+
+#heroTitle p{
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #C3FCF1;
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+  text-align: center;
+  background-color: #4C202A;
+  opacity: 0.8;
+}
+
+#features:hover {
+  opacity: 1;
+}
+
+#features p {
+  color: #E5ADB6;
+  font-size: .8rem;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-family: "Stylish", sans-serif;
+  color: #78AD80;
+}
+
+.feature-box {
+  padding: 4%;
+}
+
+.icon {
+  color: #FFF6F8;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #78AD80;
+}
+
+/* Off Canvas aside */
+#how-txt p {
+  color: #78AD80
+}
+.blockquote-footer {
+  line-height: 1.6;
+}

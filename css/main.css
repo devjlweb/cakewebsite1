@@ -23,58 +23,13 @@ h3 {
   color: #4B4A54;
 }
 
-.title p{
-  font-size: 1.2rem;
-  line-height: 1.6;
-}
-.white-section {
-  background-color: #4C202A;
-  opacity: 0.8;
-}
-.white-section:hover {
-  opacity: 1.0;
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
 }
 
-
-/*              Header and Nav               */
-.header-nav {
-  background-color: #E5ADB6; 
-}
-
-.navbar-brand {
-  font-family: 'Montserrat Alternates', sans-serif;
-  font-size: 2rem;
-  font-weight: bold;
-  color: #C3FCF1;
-}
-
-.nav-tabs {
-  padding: 5px;
-}
-
-.nav-item {
-  padding: 18px;
-}
-
-.nav-link {
-  font-size: 1.2rem;
-  font-family: "Montserrat-Light";
-}
-
-/* HeroTitle */
-
-#title {
-  background-image: url("/images/bgHero.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-width: 90vw;
-  text-align: left;
-  color: #005B47;
-  padding-top: 180px;
-}
-#title p {
-  color: #C3FCF1;
-}
 
 /* Headings */
 
@@ -89,56 +44,6 @@ h3 {
   line-height: 1.5;
 }
 
-/* Containers */
-
-.container-fluid {
-  padding: 7% 15%;
-}
-
-/* Buttons */
-.button-title {
-  color :#FFE3F1;
-}
-button {
-  margin: 5% 3% 5% 0;
-  color :#FFE3F1;
-}
-
-
-/* Off Canvas aside */
-
-.blockquote-footer {
-  line-height: 1.6;
-}
-
-/* Features Section */
-
-#features {
-  position: relative;
-  text-align: center;
-}
-#features p {
-  color: #E5ADB6;
-}
-
-.feature-title {
-  font-size: 1.5rem;
-  font-family: "Stylish", sans-serif;
-  color: #78AD80;
-}
-
-.feature-box {
-  padding: 4%;
-}
-
-.icon {
-  color: #FFF6F8;
-  margin-bottom: 1rem;
-}
-
-.icon:hover {
-  color: #78AD80;
-}
 
 /* Testimonial Section */
 
