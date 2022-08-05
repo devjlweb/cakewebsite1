@@ -7,7 +7,7 @@ body {
   font-family: "Montserrat";
   text-align: center;
   font-size: 18px;
-
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -22,7 +22,6 @@ h1 a {
 h3 {
   color: #4B4A54;
 }
-
 
 /* Containers */
 
@@ -43,6 +42,22 @@ h3 {
   font-size: 3rem;
   line-height: 1.5;
 }
+
+/* priceTab */
+
+#priceTab {
+  background-color: #E5ADB6;
+  margin: 0;
+}
+
+/*  Footer */
+/* .footer-all {
+  background-color: #574145;
+  opacity: .9;
+}
+.footer-all:hover {
+  opacity: 1;
+} */
 
 
 
@@ -72,6 +87,7 @@ flex: 1;
   margin: 10vh auto 5vh;
   max-width: 980px;
   width: 85vw;
+  margin-bottom: 0;
   }
   .page h1 {
   font-size: 3em;
@@ -144,12 +160,12 @@ flex: 1;
 /* Post Html */
 
 .post {
-  text-align: left;
-}
-.post {
-  width: 100%;
 
+  text-align: left;
+  width: 100%;
+  
 }
+
 .post-content,
 .post-footer {
   margin: auto;
