@@ -174,7 +174,7 @@ flex: 1;
 }
 .pull-left {
   float: left;
-  margin: 2em 2em 0 -2%;
+  margin: 2em 2em 4em -2%;
 
 }
 .pull-right {
@@ -205,7 +205,7 @@ flex: 1;
 .half-hero {
   background-position: center center;
   background-size: cover;
-  height: 40vh;
+  height: 25vh;
 }
 
 
