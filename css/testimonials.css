@@ -28,6 +28,18 @@
   border-radius: 100%;
   margin: 20px;
 }
+
+.box {
+  transform: translateX(200%);
+  transition: transform 0.8s ease;
+}
+.box:nth-of-type(even) {
+  transform: translateX(-200%)
+}
+.box.show {
+  transform:translateX(0);
+}
+
   #press {
     background-color: #ef8172;
   }
