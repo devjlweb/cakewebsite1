@@ -1,3 +1,6 @@
+
+/*                 heroTitle                   */
+
 #heroTitle {
   background-image: url("/images/bgHero.jpg");
   background-repeat: no-repeat;
@@ -15,7 +18,19 @@
   color: #C3FCF1;
 }
 
-/* Features Section */
+.button-title a:hover {
+  color:#005B47;
+}
+
+/*                 Off Canvas aside                */
+#how-txt p {
+  color: #78AD80
+}
+.blockquote-footer {
+  line-height: 1.6;
+}
+
+/*               Features Section             */
 
 #features {
   position: relative;
@@ -50,12 +65,4 @@
 
 .icon:hover {
   color: #78AD80;
-}
-
-/* Off Canvas aside */
-#how-txt p {
-  color: #78AD80
-}
-.blockquote-footer {
-  line-height: 1.6;
 }
