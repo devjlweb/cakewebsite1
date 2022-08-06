@@ -2,7 +2,7 @@
 /*                 heroTitle                   */
 
 #heroTitle {
-  background-image: url("/images/bgHero.jpg");
+  background-image: url("cakewebsite1/images/bgHero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   min-width: 90vw;
